@@ -9,3 +9,4 @@ class netbins():
 class dev():
     def execute(self):
         print("versio 3.0")
+        print("update version")
