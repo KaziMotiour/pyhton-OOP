@@ -1,6 +1,6 @@
 class pycharm():
     def execute(self):
-       print("dcl")
+       print("note X4")
 
 class netbins():
     def execute(self):
@@ -11,4 +11,4 @@ class dev():
         ide.execute()
 ide1=pycharm()
 dev1=dev()
-dev().execute(ide1)
+#dev().execute(ide1)
