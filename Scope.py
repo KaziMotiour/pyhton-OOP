@@ -7,3 +7,13 @@ def my_name():
     hello()
 my_name()
 print(name)
+
+# use global to change local variable
+
+x = 50
+def func():
+    global x
+    x=100
+print(x)
+func()
+print(x)
