@@ -20,4 +20,6 @@ class B():
         class m():
             def __init__(self):
                 print("none")
-B.c.m()
+            def none(self):
+                print("text")
+B.c.m().none()
