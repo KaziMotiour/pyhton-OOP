@@ -13,8 +13,8 @@ class student:
         s4 = student(m1,m2)
         return s4
 
-s1 = student(58,68)
-s2 = student(60,65)
+s1 = student(58, 68)
+s2 = student(60, 65)
 s3 = s1 + s2
 s4 = s1 * s2
 # print(s3[0])
