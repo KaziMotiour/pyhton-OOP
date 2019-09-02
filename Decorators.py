@@ -9,16 +9,37 @@
 #
 # func()
 
-def hello(name):
-        print("this is a sunny day")
+# show all the uppercase in text
+# def hello(name):
+#         print("this is a sunny day")
+#
+#         def greet():
+#             return "I'm in greet function"
+#
+#         def welcome():
+#             return "welcome to my function"
+#         if name == 'motiour':
+#             return greet()
+#         else:
+#             return welcome()
+# print(hello(input()))
 
-        def greet():
-            return "I'm in greet function"
+# Decorates
+# def hello():
+#     print("hello matiour")
+# def other(func):
+#     print("Hello tareek")
+#     return func
+# other(hello())
+def new_decorator(func):
 
-        def welcome():
-            return "welcome to my function"
-        if name == 'motiour':
-            return greet()
-        else:
-            return welcome()
-print(hello(input()))
+    def call_func():
+        print("Code here before execution func")
+        func()
+        print("Func() has been called")
+    return call_func
+@new_decorator
+def Func_need_decorator():
+    print("This function is in need of a Decorator")
+#Func_need_decorator = new_decorator(Func_need_decorator())
+Func_need_decorator()
