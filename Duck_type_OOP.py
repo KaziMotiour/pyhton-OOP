@@ -7,7 +7,7 @@ a=input("enter the neme of ide:")
 if a=="pycharm":
     ide1=pycharm()
     ex(ide1)
-elif a =="netbins":
+elif  a =="netbins":
     ide2=netbins()
     ex(ide2)
 elif a == "dev":
