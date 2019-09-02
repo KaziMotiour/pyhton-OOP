@@ -1,7 +1,3 @@
-class electric_car():
-    def __init__(self,make,model,year):
-        self.make=make
-        self.model=model
-        self.year=year
-        super.__init__(make,model,year)
-
+print('hello')
+if __name__ == '__main__':
+    print("not you can't")
